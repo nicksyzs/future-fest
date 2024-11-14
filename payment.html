@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar para Plano Pro</title>
+    <link rel="stylesheet" href="payment/style.css">
+</head>
+<body>
+    <header>
+        <img src="payment/img/logo.png" alt="logo" id="logo"> 
+        <a href="index.html" class="a">Home</a>
+        <a href="index.html#parte2" class="a">Proposta</a>
+        <a href="sobre.html" class="a">Sobre</a>
+        <a href="marketplace.html" class="a">Marketplace</a>
+        <a href="login.html" class="login" aria-label="Login">
+            <img src="payment/img/login.png" alt="Login Icon">
+        </a>
+    </header>
+
+    <div class="container">
+        <div class="header-left">
+            <div class="logo-left">
+                <img src="payment/img/logo1.png" alt="Logo True Economy">
+            </div>
+            <h2 class="main-title">Atualizar para plano <span class="highlight">Pro</span></h2>
+            <p class="subtext">Impulsione o seu negócio com um plano que selecionamos para você.</p>
+        </div>
+        
+        <div class="content">
+            <form class="form-section">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="card-number">Número do cartão</label>
+                    <input type="number" id="card-number" required>
+                </div>
+                <div class="form-group-row">
+                    <div class="form-group">
+                        <label for="expiry">Mês/Ano</label>
+                        <input type="text" id="expiry" placeholder="MM/AA" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="number" id="cvv" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="country">País</label>
+                    <input type="text" id="country" value="Brazil" required>
+                </div>
+                <div class="form-group">
+                    <label for="postal-code">Código</label>
+                    <input type="text" id="postal-code" required>
+                </div>
+                <p class="description">Com o Plano PRO, seu produto será destacado no nosso Marketplace e impulsionado para alcançar mais compradores internacionais. Aproveite visibilidade exclusiva, promoção estratégica e recursos extras para expandir suas vendas e conquistar o mercado global.</p>
+            </form>
+
+            <div class="options-section">
+                <div class="subscription-type">
+                    <h3>Tipo de Assinatura</h3>
+                    <label class="subscription-option">
+                        <input type="radio" name="subscription" value="mensal" checked>
+                        <span>Pagar mensalmente - R$20,00 / Membro</span>
+                    </label>
+                    <label class="subscription-option">
+                        <input type="radio" name="subscription" value="anual">
+                        <span>Pagar anualmente - R$18,00 Mensal por Membro</span>
+                    </label>
+                </div>                
+                <div class="addons">
+                    <h3>Adicionais</h3>
+                    <label>
+                        <input type="checkbox" name="addon" value="ai">
+                        Inteligência artificial aprimorada - +R$10,00 Mensal/Membro
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button type="submit" class="btn">Atualizar para o PRO</button>
+            <p>Ao assinar você concorda com os <a href="#">termos e condições</a>.</p>
+        </div>
+    </div>
+</body>
+</html>

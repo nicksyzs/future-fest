@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #DCEEFF;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #38A1FF;
+    flex-direction: row;
+    margin:  20px;
+    border-radius: 20px;
+    width: 97%;
+}
+header a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+}
+.a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+.a:hover::after, 
+.a.selected::after {
+    width: 100%;
+}
+header a{
+    color: white;
+    margin-top: 40px;
+    text-decoration: none;
+}
+#logo{
+    margin: 10px;
+    padding: 10px;
+    max-width: 64px;
+    max-height: 64px;
+} 
+.login img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: -2vh;
+    text-decoration: none;
+}
+.login img:hover{
+    filter: brightness(50%);
+}
+
+main {
+    top: 50%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    width: 518px;
+    height: 471px;
+    margin: 0 auto; 
+    position: relative;
+    border-radius: 20px;
+}
+
+.container {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+label {
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.input-container {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.input-container input {
+    width: 80%;
+    padding: 10px;
+    padding-right: 30px; 
+    border: none;
+    border-bottom: 2px solid #00000041;
+    outline: none;
+    font-size: 16px;
+    background: none;
+}
+.input-container input:focus {
+    border-bottom: 1px solid #000; 
+}
+.input-container .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+main p{
+    color: #00000050;
+}
+
+button{
+    width: 430px;
+    height: 46.23px;
+    background-color: #38A1FF;
+    border: #38A1FF;
+    border-radius: 5px;
+}
+
+b{
+    color: #38A1FF;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/logo.png" href="img/logo.png">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" id="logo"> 
+        <a href="index.html" class="a">Home</a>
+        <a href="index.html#parte2" class="a">Proposta</a>
+        <a href="sobre.html" class="a">Sobre</a>
+        <a href="marketplace.html" class="a">Marketplace</a>
+        <a href="login.html" class="login" aria-label="Login">
+            <img src="login/img/login.png" alt="Login Icon">
+        </a>
+    </header>
+<br><br><br><br>
+    <main>
+        <h1>Bem vindos ao <b>Login</b></h1>
+        <br>
+        <div class="container">
+            <p>Preencha os dados do login para acessar</p>
+        
+            <label for="username">Usuário</label>
+            <div class="input-container">
+                <input type="email" id="username" placeholder="usuário">
+                <span class="icon">👨🏻‍💼 </span> 
+            </div>
+        
+            <label for="password">Senha</label>
+            <div class="input-container">
+                <input type="password" id="password" placeholder="senha">
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <button onclick="redirectToHome()">Enviar</button>
+    </main>
+
+    <script src="login/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Krona+One&family=Spline+Sans:wght@300..700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DCEEFF;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #38A1FF;
+    flex-direction: row;
+    margin:  20px;
+    border-radius: 20px;
+    width: 97%;
+    position: fixed;
+}
+header a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+}
+.a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+.a:hover::after, 
+.a.selected::after {
+    width: 100%;
+}
+header a{
+    color: white;
+    margin-top: 40px;
+    text-decoration: none;
+}
+#logo{
+    margin: 10px;
+    padding: 10px;
+    max-width: 64px;
+    max-height: 64px;
+} 
+.login img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: -2vh;
+    text-decoration: none;
+}
+.login img:hover{
+    filter: brightness(50%);
+}
+.parte1{
+    background-image: url(img/parte1.png);  
+    height: 100vh;                          
+    background-repeat: no-repeat;           
+    background-size: cover;                 
+    background-position: center center;     
+    width: 100%;   
+    align-items: center;  
+}
+.parte1 {
+    background-image: url(img/parte1.png);  
+    height: 100vh;                           
+    background-repeat: no-repeat;           
+    background-size: cover;                 
+    background-position: center center;     
+    width: 100%;   
+    display: flex;               
+    flex-direction: column;      
+    justify-content: center;     
+    align-items: center;         
+}
+.parte1 h1{
+    color: white;
+    text-align: center;
+    font-size: 64px;
+}
+.parte1 p{
+    color: white;
+    font-size: 20px;
+}
+.parte1 input{
+    color: white;
+    background-color: #38A1FF;
+    width: 280px;
+    height: 62px;
+    border-radius: 10px;
+}
+.parte1 button{
+    color: #38A1FF;
+    background-color: white;
+    width: 280px;
+    height: 62px;
+    border-radius: 10px;
+}
+.p1row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+}
+.parte2{
+    display: flex;
+    justify-content: space-between;
+}
+.parte22{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.parte22 input{
+    color: #38A1FF;
+    background-color: white;
+    border: none;
+}
+.parte33{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.parte33 input{
+    color: #38A1FF;
+    background-color: white;
+    border: none;
+}
+.parte3{
+    display: flex;
+    justify-content: space-between;
+}
+.pung{
+    display: flex;
+    flex-direction: column;
+}
+.pung p{
+    margin-left: 13vh;
+}
+.beadadoobee{
+    display: flex;
+    flex-direction: column;
+}
+.beadadoobee p{
+    margin-left: 10vh;
+}
+.Bryan{
+    display: flex;
+    flex-direction: column;
+}
+.Bryan p{
+    margin-left: 13vh;
+}
+.scott{
+    display: flex;
+    flex-direction: column;
+}
+.scott p{
+    margin-left: 1vh;
+}
+.parte4{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    height: 778px;
+    align-items: center;
+}
+.parte44{
+    display: flex;
+    flex-direction: column; 
+    text-align: left; 
+}
+.parte44 h1 {
+    width: 80%;
+    font-family: 'EB Garamond', serif; 
+    font-size: 64px;
+    font-weight: lighter;
+    margin: 20px;
+    padding: 10px;
+    margin-right: 15vh;
+}
+.parte44 p {
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    padding: 10px;
+    font-size: 22px;
+}
+.parte4 img {
+    margin: 20px;
+    padding: 10px;
+    height: 590px;
+    width: 585px;
+}
+.parte44 a{
+    background-color: #38A1FF;
+    color: white;
+    width: 140px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.direitos {
+    background-color: #38A1FF; 
+    padding: 40px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;  
+}
+.conteudo {
+    display: flex;
+    justify-content: space-between; 
+}
+.esquerda {
+    margin: 0; 
+}
+.direita {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.direita img {
+    margin: 10px;
+}
